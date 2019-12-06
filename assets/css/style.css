@@ -15,7 +15,7 @@ header{
     color:white;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-/* the background div*/
+/* the background div for index.html*/
 .maindiv{
 width:1500px;
 height:800px;
@@ -23,11 +23,10 @@ background-color:lightgray;
 margin-left:200px;
 margin-top:40px;
 position:absolute;
-
 border-top:groove;
 border-color:#cccccc;
 }
-/*the main content of the page*/
+/*the main content of index.html*/
 .container{
     height:600px;
     width:960px;
@@ -48,7 +47,7 @@ border-color:#cccccc;
     width:60px;
     height:20px;
     background-color:white;
-    margin-left:1215px;
+    margin-left:1115px;
     position:absolute;
    text-align:left;
 }
@@ -64,7 +63,7 @@ border-color:#cccccc;
    text-align:left;
     height:20px;
     background-color:white;
-    margin-left:1280px;
+    margin-left:1180px;
     position:absolute;
    
 }
@@ -79,11 +78,11 @@ border-color:#cccccc;
    text-align:left;
     height:20px;
     background-color:white;
-    margin-left:1360px;
+    margin-left:1260px;
     position:absolute;
    
 }
-/*the image*/
+/*the image for index.html*/
 #mainimg{
 
     width:200px;
@@ -92,7 +91,7 @@ border-color:#cccccc;
     margin-top:100px;
     alt:"image here" ;
 }
-/*the bold text*/
+/*the bold text for index.html*/
 .namep{
     color:#4aaaa5;
     font-size:30px;
@@ -102,7 +101,7 @@ border-color:#cccccc;
     margin-top:20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-/*the footer*/
+/*the footer for index.html*/
 .footer{
     position:absolute;
     width:1500px;
@@ -114,3 +113,76 @@ border-color:#cccccc;
     border-width:8px;
     left:-200px;
 }
+/*the main content for portfolio.html*/
+.container1{
+    height:800px;
+    width:960px;
+    background-color:#ffffff;
+    margin-left:200px;
+    margin-top:50px;
+    position: absolute;
+}
+/*the background for portfolio.html*/
+.maindiv1{
+    width:1500px;
+    height:1000px;
+    background-color:lightgray;
+    margin-left:200px;
+    margin-top:40px;
+    position:absolute;
+    border-top:groove;
+    border-color:#cccccc;
+    }
+/*the bold text for portfolio.html*/
+    .namep1{
+        color:#4aaaa5;
+        font-size:30px;
+        font-weight:900;
+        position:absolute;
+        margin-left:30px;
+        margin-top:20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+/*the images for portfolio.html*/
+    #image1{
+        position:absolute;
+        width:250px;
+        margin-top:100px;
+        left:-10px;
+    }
+
+    #image2{
+        position:absolute;
+        width:250px;
+        margin-top:325px;
+        left:-10px;
+    }
+
+    
+    #image3{
+        position:absolute;
+        width:250px;
+        margin-top:550px;
+        left:-10px;
+    }
+    
+    #image4{
+        position:absolute;
+        width:250px;
+        margin-top:100px;
+        left:275px;
+    }
+
+    #image5{
+        position:absolute;
+        width:250px;
+        margin-top:325px;
+        left:275px;
+    }
+
+    .imgdiv1{
+    width:250px;
+    height:45px;
+    background-color:teal;
+    margin-top:200px;
+    }
