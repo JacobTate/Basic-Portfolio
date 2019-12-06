@@ -1,4 +1,4 @@
-/*  the css code for index.html   */
+/* the main header*/
 header{
     width:200px;
     height:40px;
@@ -7,14 +7,15 @@ header{
     margin-bottom:0px;
     position:absolute;
 }
-
+/* the header text*/
 .nameh1{
     text-align:center;
     vertical-align:middle;
     line-height:0px;
     color:white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
+/* the background div*/
 .maindiv{
 width:1500px;
 height:800px;
@@ -22,11 +23,11 @@ background-color:lightgray;
 margin-left:200px;
 margin-top:40px;
 position:absolute;
-border-style: ridge;
-border-top:none;
+
+border-top:groove;
 border-color:#cccccc;
 }
-
+/*the main content of the page*/
 .container{
     height:600px;
     width:960px;
@@ -36,30 +37,62 @@ border-color:#cccccc;
     position: absolute;
 }
 
-
-.link1{
+/*the first link*/
+#link1{
     color:#777777;
     text-decoration:none;
-  
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.link{
+.link1{
     width:60px;
     height:20px;
     background-color:white;
-    margin-left:1200px;
+    margin-left:1215px;
     position:absolute;
    text-align:left;
 }
+/*the second link*/
+#link2{
+    color:#777777;
+    text-decoration:none;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
+.link2{
+    width:70px;
+   text-align:left;
+    height:20px;
+    background-color:white;
+    margin-left:1280px;
+    position:absolute;
+   
+}
+/*the third link*/
+#link3{
+    color:#777777;
+    text-decoration:none;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.link3{
+    width:60px;
+   text-align:left;
+    height:20px;
+    background-color:white;
+    margin-left:1360px;
+    position:absolute;
+   
+}
+/*the image*/
 #mainimg{
 
     width:200px;
     position:absolute;
     margin-left:30px;
     margin-top:100px;
+    alt:"image here" ;
 }
-
+/*the bold text*/
 .namep{
     color:#4aaaa5;
     font-size:30px;
@@ -67,4 +100,17 @@ border-color:#cccccc;
     position:absolute;
     margin-left:30px;
     margin-top:20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+/*the footer*/
+.footer{
+    position:absolute;
+    width:1500px;
+    height:100px;
+    background-color:#666666;
+    margin-top:750px;
+    border-top:solid;
+    border-color:teal;
+    border-width:8px;
+    left:-200px;
 }
