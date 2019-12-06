@@ -1,48 +1,70 @@
+/*  the css code for index.html   */
 header{
     width:200px;
-    height:80px;
+    height:40px;
     background-color:#4aaaa5;
     margin-left:400px;
-    
+    margin-bottom:0px;
+    position:absolute;
 }
 
 .nameh1{
     text-align:center;
     vertical-align:middle;
-    line-height:80px;
+    line-height:0px;
     color:white;
 }
 
 .maindiv{
 width:1500px;
-height:1200px;
-background-color:darkgray;
+height:800px;
+background-color:lightgray;
 margin-left:200px;
-
+margin-top:40px;
+position:absolute;
+border-style: ridge;
+border-top:none;
+border-color:#cccccc;
 }
 
 .container{
     height:600px;
     width:960px;
-    background-color:red;
-    bottom:500px
+    background-color:#ffffff;
+    margin-left:200px;
+    margin-top:50px;
+    position: absolute;
 }
 
 
 .link1{
-    color:grey;
+    color:#777777;
     text-decoration:none;
   
 }
 
 .link{
-    width:200px;
-    height:40px;
+    width:60px;
+    height:20px;
     background-color:white;
     margin-left:1200px;
-    margin-bottom:0px;
-    position: absolute;
-    bottom:868px;
+    position:absolute;
    text-align:left;
-   vertical-align: middle;
+}
+
+#mainimg{
+
+    width:200px;
+    position:absolute;
+    margin-left:30px;
+    margin-top:100px;
+}
+
+.namep{
+    color:#4aaaa5;
+    font-size:30px;
+    font-weight:900;
+    position:absolute;
+    margin-left:30px;
+    margin-top:20px;
 }
