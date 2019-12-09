@@ -364,3 +364,15 @@ font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         margin-top:15px;
         margin-left:40px;
     }
+/*the footer for contact.html*/
+    .footer2{
+        position:absolute;
+        width:1500px;
+        height:75px;
+        background-color:#666666;
+        margin-top:843px;
+        border-top:solid;
+        border-color:teal;
+        border-width:8px;
+        left:208px;
+}
